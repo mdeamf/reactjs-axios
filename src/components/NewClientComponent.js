@@ -43,7 +43,7 @@ export const NewClientComponent = () => {
             onChange={(e) => setNewUser(e.target.value)}
           />
         </label>
-        <input type="submit" />
+        <button type="submit">Add User</button>
       </form>
     </div>
   );
