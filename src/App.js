@@ -1,5 +1,6 @@
 import './App.css';
 import { ClientComponent } from './components/ClientComponent';
+import { InstanceComponent } from './components/InstanceComponent';
 import { NewClientComponent } from './components/NewClientComponent';
 
 function App() {
@@ -7,7 +8,9 @@ function App() {
     <div className="App">
       {/* <ClientComponent /> */}
 
-      <NewClientComponent />
+      {/* <NewClientComponent /> */}
+
+      <InstanceComponent />
     </div>
   );
 }
