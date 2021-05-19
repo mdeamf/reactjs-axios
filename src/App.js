@@ -1,9 +1,10 @@
 import './App.css';
+import { ClientComponent } from './components/ClientComponent';
 
 function App() {
   return (
     <div className="App">
-      <p>Testing!</p>
+      <ClientComponent />
     </div>
   );
 }
